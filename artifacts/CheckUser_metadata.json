@@ -1,0 +1,88 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_username",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_pswd",
+						"type": "string"
+					}
+				],
+				"name": "getter",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_username",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_pswd",
+						"type": "string"
+					}
+				],
+				"name": "setter",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Desktop/SolidityGit/VerifyUser.sol": "CheckUser"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Desktop/SolidityGit/VerifyUser.sol": {
+			"keccak256": "0x22068519dba3c9096d5817aa67cc4574a06fd34aab7e104ed092d08f4ea47dae",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://bb77a8ccec9b8f85214d79d8c190ee4edf9c5b1cadfad6d959db3401c4514b71",
+				"dweb:/ipfs/QmYmo3N59BLYcWZYcR6hYBEzeJBLZhCHLgedVzT38PnFmA"
+			]
+		}
+	},
+	"version": 1
+}
